@@ -4,13 +4,13 @@ I focus on bridging the gap between state-of-the-art generative AI and high-perf
 
 ### Featured Engineering Work
 
-#### [Agro Quant Engine](link-to-repo)
+#### [Agro Quant Engine](https://github.com/Aliismail293/Agro-Quant)
 A high-performance, multi-source financial analysis system tracking agricultural equities, fiat pairs (USD/BRL), and global commodity futures. 
 * **Architecture:** Bypasses Python's GIL using a custom compiled **Rust** extension (`agro_rust_core`) for ultra-low latency statistical processing (Z-scores, rolling volatility). 
 * **AI Routing:** Implements **Llama 3.1** as an autonomous router agent to interpret live market data alongside an **ARIMA** time-series forecasting model.
 * **Risk Management:** Integrates the GDELT API to quantify macroeconomic supply chain risks, enforcing programmatic trade freezes based on negative sentiment volume.
 
-#### [AI-Powered Technical Dictation Agent](link-to-repo)
+#### [AI-Powered Technical Dictation Agent](https://github.com/Aliismail293/Agro-Quant)
 A privacy-first, local desktop application engineered to transform raw, stream-of-consciousness dictation into highly structured technical documentation.
 * **Architecture:** Utilizes `sounddevice` and `numpy` for continuous, threaded audio capture, transcribing locally via **OpenAI Whisper**.
 * **LLM Orchestration:** Routes transcriptions through a locally hosted **Llama 3.1** instance, utilizing strict system prompting to aggressively filter verbal noise while preserving complex mathematical and architectural jargon.
